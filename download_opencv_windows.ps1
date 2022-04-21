@@ -4,7 +4,7 @@ $uriArray = @(
     "https://github.com/tentose/opencv_files/releases/download/${tag}/opencv${version}_win_x64.zip"
     "https://github.com/tentose/opencv_files/releases/download/${tag}/opencv${version}_win_x86.zip" 
 )
-
+ 
 function Download($uri, $outFile) {
     Write-Host "Downloading ${uri}"
     if (!(Test-Path $outFile)) {
