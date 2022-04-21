@@ -164,7 +164,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>IlmImf.lib;ippicvmt.lib;ippiw.lib;ittnotify.lib;libjpeg-turbo.lib;libopenjp2.lib;libpng.lib;libprotobuf.lib;libtiff.lib;libwebp.lib;opencv_aruco455.lib;opencv_bgsegm455.lib;opencv_bioinspired455.lib;opencv_calib3d455.lib;opencv_ccalib455.lib;opencv_core455.lib;opencv_dnn455.lib;opencv_dnn_superres455.lib;opencv_dnn_objdetect455.lib;opencv_dpm455.lib;opencv_face455.lib;opencv_features2d455.lib;opencv_flann455.lib;opencv_fuzzy455.lib;opencv_hfs455.lib;opencv_highgui455.lib;opencv_imgcodecs455.lib;opencv_imgproc455.lib;opencv_img_hash455.lib;opencv_line_descriptor455.lib;opencv_ml455.lib;opencv_objdetect455.lib;opencv_optflow455.lib;opencv_phase_unwrapping455.lib;opencv_photo455.lib;opencv_plot455.lib;opencv_quality455.lib;opencv_reg455.lib;opencv_rgbd455.lib;opencv_saliency455.lib;opencv_shape455.lib;opencv_stereo455.lib;opencv_stitching455.lib;opencv_structured_light455.lib;opencv_superres455.lib;opencv_surface_matching455.lib;opencv_text455.lib;opencv_tracking455.lib;opencv_video455.lib;opencv_videoio455.lib;opencv_videostab455.lib;opencv_wechat_qrcode455.lib;opencv_xfeatures2d455.lib;opencv_ximgproc455.lib;opencv_xobjdetect455.lib;opencv_xphoto455.lib;quirc.lib;zlib.lib;ws2_32.lib;tesseract41.lib;leptonica-1.81.1.lib;gif.lib;jpeg.lib;libpng16.lib;libwebpmux.lib;lzma.lib;tiff.lib;turbojpeg.lib;webp.lib;webpdecoder.lib;webpdemux.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>IlmImf.lib;ittnotify.lib;libopenjp2.lib;libjpeg-turbo.lib;libpng.lib;libprotobuf.lib;libtiff.lib;libwebp.lib;opencv_core455.lib;opencv_highgui455.lib;opencv_imgcodecs455.lib;opencv_imgproc455.lib;quirc.lib;zlib.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>NotSet</SubSystem>
@@ -179,8 +179,6 @@
     <PostBuildEvent>
       <Command>copy "$(LocalDebuggerCommand)" "$(SolutionDir)test\OpenCvSharp.Tests\dll\x86\$(TargetFileName)"
 copy "$(LocalDebuggerCommand)" "$(SolutionDir)test\OpenCvSharp.Tests\$(TargetFileName)"
-copy "$(SolutionDir)opencv_files\opencv455_win_x86\x86\vc17\bin\opencv_videoio_ffmpeg455.dll" "$(SolutionDir)test\OpenCvSharp.Tests\dll\x86\opencv_videoio_ffmpeg455.dll"
-copy "$(SolutionDir)opencv_files\opencv455_win_x86\x86\vc17\bin\opencv_videoio_ffmpeg455.dll" "$(SolutionDir)test\OpenCvSharp.Tests\opencv_videoio_ffmpeg455.dll"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -207,7 +205,7 @@ copy "$(SolutionDir)opencv_files\opencv455_win_x86\x86\vc17\bin\opencv_videoio_f
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>IlmImf.lib;ippicvmt.lib;ippiw.lib;ittnotify.lib;libopenjp2.lib;libjpeg-turbo.lib;libpng.lib;libprotobuf.lib;libtiff.lib;libwebp.lib;opencv_aruco455.lib;opencv_bgsegm455.lib;opencv_bioinspired455.lib;opencv_calib3d455.lib;opencv_ccalib455.lib;opencv_core455.lib;opencv_dnn455.lib;opencv_dnn_superres455.lib;opencv_dnn_objdetect455.lib;opencv_dpm455.lib;opencv_face455.lib;opencv_features2d455.lib;opencv_flann455.lib;opencv_fuzzy455.lib;opencv_hfs455.lib;opencv_highgui455.lib;opencv_imgcodecs455.lib;opencv_imgproc455.lib;opencv_img_hash455.lib;opencv_line_descriptor455.lib;opencv_ml455.lib;opencv_objdetect455.lib;opencv_optflow455.lib;opencv_phase_unwrapping455.lib;opencv_photo455.lib;opencv_plot455.lib;opencv_quality455.lib;opencv_reg455.lib;opencv_rgbd455.lib;opencv_saliency455.lib;opencv_shape455.lib;opencv_stereo455.lib;opencv_stitching455.lib;opencv_structured_light455.lib;opencv_superres455.lib;opencv_surface_matching455.lib;opencv_text455.lib;opencv_tracking455.lib;opencv_video455.lib;opencv_videoio455.lib;opencv_videostab455.lib;opencv_wechat_qrcode455.lib;opencv_xfeatures2d455.lib;opencv_ximgproc455.lib;opencv_xobjdetect455.lib;opencv_xphoto455.lib;quirc.lib;zlib.lib;ws2_32.lib;tesseract41.lib;leptonica-1.81.1.lib;gif.lib;jpeg.lib;libpng16.lib;libwebpmux.lib;lzma.lib;tiff.lib;turbojpeg.lib;webp.lib;webpdecoder.lib;webpdemux.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>IlmImf.lib;ittnotify.lib;libopenjp2.lib;libjpeg-turbo.lib;libpng.lib;libprotobuf.lib;libtiff.lib;libwebp.lib;opencv_core455.lib;opencv_highgui455.lib;opencv_imgcodecs455.lib;opencv_imgproc455.lib;quirc.lib;zlib.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>NotSet</SubSystem>
@@ -222,22 +220,26 @@ copy "$(SolutionDir)opencv_files\opencv455_win_x86\x86\vc17\bin\opencv_videoio_f
     <PostBuildEvent>
       <Command>copy "$(LocalDebuggerCommand)" "$(SolutionDir)test\OpenCvSharp.Tests\dll\x64\$(TargetFileName)"
 copy "$(LocalDebuggerCommand)" "$(SolutionDir)test\OpenCvSharp.Tests\$(TargetFileName)"
-copy "$(SolutionDir)opencv_files\opencv455_win_x64\x64\vc17\bin\opencv_videoio_ffmpeg455_64.dll" "$(SolutionDir)test\OpenCvSharp.Tests\opencv_videoio_ffmpeg455_64.dll"
-copy "$(SolutionDir)opencv_files\opencv455_win_x64\x64\vc17\bin\opencv_videoio_ffmpeg455_64.dll" "$(SolutionDir)test\OpenCvSharp.Tests\dll\x64\opencv_videoio_ffmpeg455_64.dll"</Command>
+</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="aruco.cpp" />
-    <ClCompile Include="bgsegm.cpp" />
-    <ClCompile Include="calib3d.cpp" />
     <ClCompile Include="core.cpp" />
-    <ClCompile Include="cuda.cpp" />
-    <ClCompile Include="dnn.cpp" />
-    <ClCompile Include="dnn_superres.cpp" />
-    <ClCompile Include="face.cpp" />
     <ClCompile Include="highgui.cpp" />
     <ClCompile Include="imgcodecs.cpp" />
     <ClCompile Include="imgproc.cpp" />
+    <ClCompile Include="std_string.cpp" />
+    <ClCompile Include="std_vector.cpp" />
+    <!-- Removed
+    <ClCompile Include="aruco.cpp" />
+    <ClCompile Include="bgsegm.cpp" />
+    <ClCompile Include="calib3d.cpp" />
+    <ClCompile Include="cuda.cpp" />
+    <ClCompile Include="dnn.cpp" />
+    <ClCompile Include="dnn_superres.cpp" />
+    
+    <ClCompile Include="face.cpp" />
+
     <ClCompile Include="img_hash.cpp" />
     <ClCompile Include="line_descriptor.cpp" />
     <ClCompile Include="ml.cpp" />
@@ -246,20 +248,22 @@ copy "$(SolutionDir)opencv_files\opencv455_win_x64\x64\vc17\bin\opencv_videoio_f
     <ClCompile Include="optflow.cpp" />
     <ClCompile Include="photo.cpp" />
     <ClCompile Include="quality.cpp" />
-    <ClCompile Include="shape.cpp" />
-    <ClCompile Include="std_string.cpp" />
-    <ClCompile Include="std_vector.cpp" />
-    <ClCompile Include="features2d.cpp" />
-    <ClCompile Include="stitching.cpp" />
-    <ClCompile Include="superres.cpp" />
-    <ClCompile Include="text.cpp" />
+
     <ClCompile Include="tracking.cpp" />
     <ClCompile Include="video.cpp" />
     <ClCompile Include="videoio.cpp" />
     <ClCompile Include="wechat_qrcode.cpp" />
     <ClCompile Include="xfeatures2d.cpp" />
-    <ClCompile Include="ximgproc.cpp" />
+    
+    <ClCompile Include="features2d.cpp" />
+    <ClCompile Include="stitching.cpp" />
+    <ClCompile Include="superres.cpp" />
+    <ClCompile Include="text.cpp" />
+    
     <ClCompile Include="xphoto.cpp" />
+    <ClCompile Include="shape.cpp" />
+    <ClCompile Include="ximgproc.cpp" />
+    -->
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aruco.h" />

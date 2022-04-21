@@ -1,34 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="aruco.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="bgsegm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="calib3d.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="core.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cuda.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="dnn.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="dnn_superres.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="face.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="features2d.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="img_hash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="highgui.cpp">
@@ -40,64 +13,10 @@
     <ClCompile Include="imgproc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="line_descriptor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="flann.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ml.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="objdetect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="optflow.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="photo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="quality.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="shape.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="std_vector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="std_string.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="text.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="superres.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="stitching.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="tracking.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="video.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="videoio.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="xfeatures2d.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ximgproc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="xphoto.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="wechat_qrcode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

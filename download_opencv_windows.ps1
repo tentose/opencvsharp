@@ -1,11 +1,8 @@
-$tag = "4.5.5.20211229"
+$tag = "4.5.5.20220420"
 $version = "455"
 $uriArray = @(
-    "https://github.com/shimat/opencv_files/releases/download/${tag}/opencv${version}_win_x64.zip"
-    "https://github.com/shimat/opencv_files/releases/download/${tag}/opencv${version}_win_x86.zip" 
-    "https://github.com/shimat/opencv_files/releases/download/${tag}/opencv${version}_uwp_x64.zip" 
-    "https://github.com/shimat/opencv_files/releases/download/${tag}/opencv${version}_uwp_x86.zip"
-    "https://github.com/shimat/opencv_files/releases/download/${tag}/opencv${version}_uwp_ARM.zip"
+    "https://github.com/tentose/opencv_files/releases/download/${tag}/opencv${version}_win_x64.zip"
+    "https://github.com/tentose/opencv_files/releases/download/${tag}/opencv${version}_win_x86.zip" 
 )
 
 function Download($uri, $outFile) {

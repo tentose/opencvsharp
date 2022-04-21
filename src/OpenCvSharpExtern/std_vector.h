@@ -448,6 +448,7 @@ CVAPI(void) vector_Mat_delete(std::vector<cv::Mat>* vector)
 }
 #pragma endregion
 
+#if 0
 #pragma region cv::ml::DTrees::Node
 
 CVAPI(std::vector<cv::ml::DTrees::Node>*) vector_DTrees_Node_new1()
@@ -539,6 +540,7 @@ CVAPI(void) vector_ImageFeatures_delete(std::vector<cv::detail::ImageFeatures>* 
 }
 
 #pragma endregion
+#endif
 
 #pragma region cv::line_descriptor::KeyLine
 #if 0
